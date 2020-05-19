@@ -20,9 +20,16 @@
                 color: #E2E1DB;
                 border-radius: 100px;
             }
-            body{
+            body{          
                  background-color: LightPink; 
                   }
+
+            a{
+                color:#FF1493;
+            }
+
+           
+
 
 
     </style>
@@ -32,7 +39,7 @@
     <h1 id="na"> MVC </h1>
 </div>
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-expand-sm bg-danger navbar-dark">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">MVC </a>

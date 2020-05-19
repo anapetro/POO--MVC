@@ -18,7 +18,7 @@ class MvcController{
 
         $respuesta = EnlacesPaginas::enlacesPaginasModel($enlacesController);
 
-        include $module;
+        include $respuesta;
     }
 }
 
